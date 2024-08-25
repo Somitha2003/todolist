@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(135deg, #80deea, #004d40);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #004d40;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #004d40;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #004d40;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #00695c;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.filter-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filter-btn {
+    margin: 5px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #004d40;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #00796b;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #004d40;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #b2dfdb;
+}
+
+li button {
+    background: transparent;
+    border: none;
+    color: #e57373;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+li button:hover {
+    color: #d32f2f;
+}
+
+li button.edit {
+    color: #ffeb3b;
+}
+
+li button.edit:hover {
+    color: #fbc02d;
+}
